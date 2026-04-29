@@ -6,8 +6,11 @@ readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
     "chromadb>=1.5.5",
+    "dotenv>=0.9.9",
     "langchain>=1.2.15",
     "langchain-community>=0.4.1",
+    "langchain-openai>=1.1.12",
+    "langchain-tavily>=0.2.17",
     "openai>=2.30.0",
     "streamlit>=1.56.0",
     "tavily-python>=0.7.23",
